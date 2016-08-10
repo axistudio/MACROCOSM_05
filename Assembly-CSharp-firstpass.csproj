@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E06CACDC-5F4F-0092-CA77-7B05F5954B0A}</ProjectGuid>
+    <ProjectGuid>{B8B7D3C4-930A-93C0-F387-C674717560D7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\Osc.cs" />
      <Compile Include="Assets\Plugins\PlaneScaler.cs" />
      <Compile Include="Assets\Plugins\Syphon.cs" />
      <Compile Include="Assets\Plugins\SyphonObject\SyphonClientObject.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\Plugins\SyphonTexture-AdvancedUsers\SyphonServerTextureViewRenderer.cs" />
      <Compile Include="Assets\Plugins\SyphonTexture\SyphonClientTexture.cs" />
      <Compile Include="Assets\Plugins\SyphonTexture\SyphonServerTexture.cs" />
+     <Compile Include="Assets\Plugins\UDPPacketIO.cs" />
      <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
      <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
      <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
