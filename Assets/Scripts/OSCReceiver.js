@@ -14,9 +14,10 @@ public var gameReceiver02 = "Sphere_Jupter";
 private var handler : Osc;
 
 //VARIABLES YOU WANT TO BE ANIMATED
-private var yRot : int = 0; //the rotation around the y axis
+private var yRot : float = 0; //the rotation around the y axis
+private var xRot : float = 0; //the rotation around the x axis
 
-private var SphereyRot : int = 0; //the rotation around the y axis
+private var SphereyRot : float = 0; //the rotation around the y axis
 
 public function Start ()
 {
@@ -34,7 +35,7 @@ Debug.Log("Running");
 
 function Update () {
 	var go = GameObject.Find(gameReceiver);
-	go.transform.Rotate(0, yRot, 0);
+	go.transform.Rotate(xRot*Time.deltaTime, yRot*Time.deltaTime, 0);
 
 	var sphere01 = GameObject.Find(gameReceiver02);
 	sphere01.transform.Rotate(0,SphereyRot*Time.deltaTime,0);
@@ -54,8 +55,12 @@ public function AllMessageHandler(oscMessage: OscMessage){
 
 	//FUNCTIONS YOU WANT CALLED WHEN A SPECIFIC MESSAGE IS RECEIVED
 	switch (msgAddress){
-	    case "/LightRotation":
+	    case "/LightRotationY":
 	        Rotate(msgValue);
+	        break;
+
+	   	case "/LightRotationX":
+	        RotateX(msgValue);
 	        break;
 
 	    case  "/RotationY":
@@ -75,6 +80,13 @@ public function Rotate(msgValue) : void //rotate the cube around its axis
 {
 	yRot = msgValue;
 }
+
+
+public function RotateX(msgValue) : void //rotate the cube around its axis
+{
+	xRot = msgValue;
+}
+
 
 public function SphereYRotate(msgValue) : void //rotate the cube around its axis
 {
