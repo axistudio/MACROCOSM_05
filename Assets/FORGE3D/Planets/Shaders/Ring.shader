@@ -1,4 +1,7 @@
-﻿Shader "FORGE3D/Planets/Ring" 
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
+Shader "FORGE3D/Planets/Ring" 
 {
     Properties
     {
@@ -57,12 +60,12 @@
             {
                 RingOutput o;
                 o.uv.xy = v.texcoord0;
-                float3 scale = 1 / float3( length(_World2Object[0].xyz), length(_World2Object[1].xyz), length(_World2Object[2].xyz) );
+                float3 scale = 1 / float3( length(unity_WorldToObject[0].xyz), length(unity_WorldToObject[1].xyz), length(unity_WorldToObject[2].xyz) );
 
-                o.normalDir = normalize(mul(float4(v.normal, 0), _World2Object).xyz);
-                o.posSun = mul(_Object2World, v.vertex);
-                o.posObj = mul(v.vertex, _World2Object) * scale.x;
-                o.posWorld =  mul(_World2Object, v.vertex );        
+                o.normalDir = normalize(mul(float4(v.normal, 0), unity_WorldToObject).xyz);
+                o.posSun = mul(unity_ObjectToWorld, v.vertex);
+                o.posObj = mul(v.vertex, unity_WorldToObject) * scale.x;
+                o.posWorld =  mul(unity_WorldToObject, v.vertex );        
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);                
                 return o;
             }

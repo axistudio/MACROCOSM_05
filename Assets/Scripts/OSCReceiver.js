@@ -18,6 +18,7 @@ private var yRot : float = 0; //the rotation around the y axis
 private var xRot : float = 0; //the rotation around the x axis
 
 private var SphereyRot : float = 0; //the rotation around the y axis
+private var SpherexRot : float = 0; //the rotation around the y axis
 
 public function Start ()
 {
@@ -38,7 +39,7 @@ function Update () {
 	go.transform.Rotate(xRot*Time.deltaTime, yRot*Time.deltaTime, 0);
 
 	var sphere01 = GameObject.Find(gameReceiver02);
-	sphere01.transform.Rotate(0,SphereyRot*Time.deltaTime,0);
+	sphere01.transform.Rotate(SpherexRot*Time.deltaTime,SphereyRot*Time.deltaTime,0);
 }  
 
 //These functions are called when messages are received
@@ -67,6 +68,10 @@ public function AllMessageHandler(oscMessage: OscMessage){
 	        SphereYRotate(msgValue);
 	        break;
 
+	    case  "/RotationX":
+	        SphereXRotate(msgValue);
+	        break;
+
 //		default:
 //			Rotate(msgValue);
 //			break;
@@ -91,4 +96,10 @@ public function RotateX(msgValue) : void //rotate the cube around its axis
 public function SphereYRotate(msgValue) : void //rotate the cube around its axis
 {
 	SphereyRot = msgValue;
+}
+
+
+public function SphereXRotate(msgValue) : void //rotate the cube around its axis
+{
+	SpherexRot = msgValue;
 }

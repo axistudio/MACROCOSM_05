@@ -1,4 +1,6 @@
-﻿Shader "FORGE3D/Planets/Sun" 
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+
+Shader "FORGE3D/Planets/Sun" 
 {
       Properties
     {
@@ -50,8 +52,8 @@
 
            float4 vPos = mul(UNITY_MATRIX_MV, v.vertex);
             
-           float4 posWorld = mul(_Object2World, v.vertex);
-           float4 posObj = mul(_Object2World, float4(0.0,0.0,0.0,1.0)); 
+           float4 posWorld = mul(unity_ObjectToWorld, v.vertex);
+           float4 posObj = mul(unity_ObjectToWorld, float4(0.0,0.0,0.0,1.0)); 
 
            vMod = (posWorld - posObj) * _VertexTile ;
           

@@ -1,4 +1,7 @@
-﻿Shader "FORGE3D/Planets/Atmosphere"
+﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
+Shader "FORGE3D/Planets/Atmosphere"
 {
 	Properties
 	{
@@ -77,10 +80,10 @@
             {
                 VertexOutput o;
 
-                o.normalDir = normalize(mul(float4(v.normal, 0), _World2Object).xyz);      
+                o.normalDir = normalize(mul(float4(v.normal, 0), unity_WorldToObject).xyz);      
                 
                v.vertex.xyz += (_Offset*v.normal);         
-                o.posWorld = mul(_Object2World, v.vertex);
+                o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
                 return o;
             }
