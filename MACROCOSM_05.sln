@@ -1,11 +1,11 @@
+﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{3B950997-96DC-0D2E-38AC-155477C6BA41}") = "MACROCOSM_05", "Assembly-CSharp-firstpass.csproj", "{B8B7D3C4-930A-93C0-F387-C674717560D7}"
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MACROCOSM_05", "Assembly-CSharp-firstpass.csproj", "{B8B7D3C4-930A-93C0-F387-C674717560D7}"
 EndProject
-Project("{3B950997-96DC-0D2E-38AC-155477C6BA41}") = "MACROCOSM_05", "Assembly-CSharp.csproj", "{66824791-77B6-DD0A-B609-CFD60DD4DD4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MACROCOSM_05", "Assembly-CSharp.csproj", "{66824791-77B6-DD0A-B609-CFD60DD4DD4B}"
 EndProject
-Project("{3B950997-96DC-0D2E-38AC-155477C6BA41}") = "MACROCOSM_05", "Assembly-CSharp-Editor.csproj", "{6EEB5B81-B551-2D0F-F2A0-45603AB2EE7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MACROCOSM_05", "Assembly-CSharp-Editor.csproj", "{6EEB5B81-B551-2D0F-F2A0-45603AB2EE7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
