@@ -17,6 +17,6 @@ public class MIDItoUI : MonoBehaviour {
 
 	void Update () {
 		var s = MidiMaster.GetKnob(knobNumber);
-		slider.value = s*slider.maxValue;
+	    slider.value = s * slider.maxValue;
 	}
 }
