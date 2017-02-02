@@ -65,6 +65,7 @@
      <Compile Include="Assets\Editor\SyphonHelper.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\Editor\F3DPlanetEditor.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\Editor\F3DSunEditor.cs" />
+     <Compile Include="Assets\MidiJack\Editor\MidiJackWindow.cs" />
      <Compile Include="Assets\VJUI\Editor\ButtonEditor.cs" />
      <Compile Include="Assets\VJUI\Editor\KnobEditor.cs" />
      <Compile Include="Assets\VJUI\Editor\MenuOptions.cs" />

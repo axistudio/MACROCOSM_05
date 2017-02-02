@@ -50,8 +50,14 @@
      <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSolarCamera.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSun.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSunController.cs" />
+     <Compile Include="Assets\MidiJack\Midi.cs" />
+     <Compile Include="Assets\MidiJack\MidiDriver.cs" />
+     <Compile Include="Assets\MidiJack\MidiMaster.cs" />
+     <Compile Include="Assets\MidiJack\MidiStateUpdater.cs" />
      <Compile Include="Assets\Scripts\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\MIDItoUI.cs" />
      <Compile Include="Assets\Scripts\OSCTestSender.cs" />
+     <Compile Include="Assets\Scripts\RotationMidi.cs" />
      <Compile Include="Assets\VJUI\Button.cs" />
      <Compile Include="Assets\VJUI\Configuration.cs" />
      <Compile Include="Assets\VJUI\Helper\DefaultControls.cs" />

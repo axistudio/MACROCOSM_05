@@ -111,6 +111,7 @@
 'Assets/Editor/SyphonHelper.cs'
 'Assets/FORGE3D/Planets/Scripts/Editor/F3DPlanetEditor.cs'
 'Assets/FORGE3D/Planets/Scripts/Editor/F3DSunEditor.cs'
+'Assets/MidiJack/Editor/MidiJackWindow.cs'
 'Assets/VJUI/Editor/ButtonEditor.cs'
 'Assets/VJUI/Editor/KnobEditor.cs'
 'Assets/VJUI/Editor/MenuOptions.cs'

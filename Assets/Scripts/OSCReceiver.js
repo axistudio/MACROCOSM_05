@@ -6,6 +6,8 @@ public var controller : Transform;
 
 public var controller02 : Transform;
 
+public var RotateSpeed = 0.0f;
+
 //the tag of the object on stage that you want to manipulate
 
 public var gameReceiver = "Light"; //the tag of the object on stage that you want to manipulate
@@ -34,9 +36,16 @@ public function Start ()
 }
 Debug.Log("Running");
 
+
+private var speed = 0.0f;
+public function SetSpeed (speed)
+{
+     this.RotateSpeed = speed;
+}
+
 function Update () {
 	var go = GameObject.Find(gameReceiver);
-	go.transform.Rotate(xRot*Time.deltaTime, yRot*Time.deltaTime, 0);
+	go.transform.Rotate((xRot+RotateSpeed)*Time.deltaTime, yRot*Time.deltaTime, 0);
 
 	var sphere01 = GameObject.Find(gameReceiver02);
 	sphere01.transform.Rotate(SpherexRot*Time.deltaTime,SphereyRot*Time.deltaTime,0);
