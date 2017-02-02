@@ -50,6 +50,7 @@
      <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSolarCamera.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSun.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSunController.cs" />
+     <Compile Include="Assets\Funnel\Funnel.cs" />
      <Compile Include="Assets\Mega-Fiers\MegaCache\Scripts\MegaCacheImage.cs" />
      <Compile Include="Assets\Mega-Fiers\MegaCache\Scripts\MegaCacheMeshConstructor.cs" />
      <Compile Include="Assets\Mega-Fiers\MegaCache\Scripts\MegaCacheOBJ.cs" />
@@ -307,6 +308,7 @@
      <None Include="Assets\FORGE3D\Planets\Shaders\PlanetPS.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Funnel\Shader\Gamma.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />

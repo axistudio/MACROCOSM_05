@@ -65,6 +65,7 @@
      <Compile Include="Assets\Editor\SyphonHelper.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\Editor\F3DPlanetEditor.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\Editor\F3DSunEditor.cs" />
+     <Compile Include="Assets\Funnel\Editor\FunnelEditor.cs" />
      <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaAttachEditor.cs" />
      <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaAttractorShapeEditor.cs" />
      <Compile Include="Assets\Mega-Fiers\Editor\MegaFiers\MegaBendEditor.cs" />
@@ -251,6 +252,7 @@
      <None Include="Assets\FORGE3D\Planets\Shaders\PlanetPS.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Funnel\Shader\Gamma.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />

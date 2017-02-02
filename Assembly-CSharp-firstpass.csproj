@@ -46,17 +46,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\Syphon.cs" />
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\SyphonObject\SyphonClientObject.cs" />
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\SyphonObject\SyphonServerObject.cs" />
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\SyphonTexture-AdvancedUsers\SyphonClientTextureProjector.cs" />
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\SyphonTexture-AdvancedUsers\SyphonServerAlphaOne.cs" />
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\SyphonTexture-AdvancedUsers\SyphonServerTextureCustomResolution.cs" />
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\SyphonTexture-AdvancedUsers\SyphonServerTextureViewRenderer.cs" />
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\SyphonTexture\SyphonClientTexture.cs" />
+     <Compile Include="Assets\Plugins\DeprecatedSyphon\SyphonTexture\SyphonServerTexture.cs" />
      <Compile Include="Assets\Plugins\Osc.cs" />
      <Compile Include="Assets\Plugins\PlaneScaler.cs" />
-     <Compile Include="Assets\Plugins\Syphon.cs" />
-     <Compile Include="Assets\Plugins\SyphonObject\SyphonClientObject.cs" />
-     <Compile Include="Assets\Plugins\SyphonObject\SyphonServerObject.cs" />
-     <Compile Include="Assets\Plugins\SyphonTexture-AdvancedUsers\SyphonClientTextureProjector.cs" />
-     <Compile Include="Assets\Plugins\SyphonTexture-AdvancedUsers\SyphonServerAlphaOne.cs" />
-     <Compile Include="Assets\Plugins\SyphonTexture-AdvancedUsers\SyphonServerTextureCustomResolution.cs" />
-     <Compile Include="Assets\Plugins\SyphonTexture-AdvancedUsers\SyphonServerTextureViewRenderer.cs" />
-     <Compile Include="Assets\Plugins\SyphonTexture\SyphonClientTexture.cs" />
-     <Compile Include="Assets\Plugins\SyphonTexture\SyphonServerTexture.cs" />
      <Compile Include="Assets\Plugins\UDPPacketIO.cs" />
      <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
      <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
@@ -151,6 +151,7 @@
      <None Include="Assets\FORGE3D\Planets\Shaders\PlanetPS.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Funnel\Shader\Gamma.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
