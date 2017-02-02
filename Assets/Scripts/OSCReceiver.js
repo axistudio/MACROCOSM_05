@@ -4,7 +4,12 @@ public var SendToPort : int = 9000; //the port you will be sending from
 public var ListenerPort : int = 8050; //the port you will be listening on
 public var controller : Transform;
 
-public var controller02 : Transform;
+public var glitchScriptsOnCam : GameObject;
+
+public var glitchScriptsOutputCam : GameObject;
+
+private var glitchScrtip;
+private var glitchScrtipOutput;
 
 public var RotateSpeed = 0.0f;
 
@@ -12,6 +17,7 @@ public var RotateSpeed = 0.0f;
 
 public var gameReceiver = "Light"; //the tag of the object on stage that you want to manipulate
 public var gameReceiver02 = "Sphere_Jupter"; 
+
 
 private var handler : Osc;
 
@@ -21,6 +27,9 @@ private var xRot : float = 0; //the rotation around the x axis
 
 private var SphereyRot : float = 0; //the rotation around the y axis
 private var SpherexRot : float = 0; //the rotation around the y axis
+
+
+private var GLitchSlider : float = 0; //the rotation around the y axis
 
 public function Start ()
 {
@@ -33,6 +42,8 @@ public function Start ()
 	handler.init(udp);
 	handler.SetAllMessageHandler(AllMessageHandler);
 
+	glitchScrtip = glitchScriptsOnCam.GetComponent("AnalogGlitch");
+	glitchScrtipOutput = glitchScriptsOutputCam.GetComponent("AnalogGlitch");
 }
 Debug.Log("Running");
 
@@ -44,6 +55,10 @@ public function SetSpeed (speed)
 }
 
 function Update () {
+    
+    glitchScrtip._scanLineJitter = GLitchSlider;
+    glitchScrtipOutput._scanLineJitter = GLitchSlider;
+
 	var go = GameObject.Find(gameReceiver);
 	go.transform.Rotate((xRot+RotateSpeed)*Time.deltaTime, yRot*Time.deltaTime, 0);
 
@@ -81,6 +96,10 @@ public function AllMessageHandler(oscMessage: OscMessage){
 	        SphereXRotate(msgValue);
 	        break;
 
+	    case "/FromVDMX/x":
+	        GlitchDisortion(msgValue);
+	        break;
+
 //		default:
 //			Rotate(msgValue);
 //			break;
@@ -111,4 +130,9 @@ public function SphereYRotate(msgValue) : void //rotate the cube around its axis
 public function SphereXRotate(msgValue) : void //rotate the cube around its axis
 {
 	SpherexRot = msgValue;
+}
+
+public function GlitchDisortion(msgValue) : void //rotate the cube around its axis
+{
+	GLitchSlider = msgValue;
 }

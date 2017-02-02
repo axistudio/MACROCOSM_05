@@ -51,6 +51,8 @@
      <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSun.cs" />
      <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSunController.cs" />
      <Compile Include="Assets\Funnel\Funnel.cs" />
+     <Compile Include="Assets\Kino\Glitch\AnalogGlitch.cs" />
+     <Compile Include="Assets\Kino\Glitch\DigitalGlitch.cs" />
      <Compile Include="Assets\Mega-Fiers\MegaCache\Scripts\MegaCacheImage.cs" />
      <Compile Include="Assets\Mega-Fiers\MegaCache\Scripts\MegaCacheMeshConstructor.cs" />
      <Compile Include="Assets\Mega-Fiers\MegaCache\Scripts\MegaCacheOBJ.cs" />
@@ -235,10 +237,13 @@
      <Compile Include="Assets\MidiJack\MidiMaster.cs" />
      <Compile Include="Assets\MidiJack\MidiStateUpdater.cs" />
      <Compile Include="Assets\Scripts\HUDFPS.cs" />
+     <Compile Include="Assets\Scripts\KnobControlGlitch.cs" />
      <Compile Include="Assets\Scripts\MIDItoUI.cs" />
      <Compile Include="Assets\Scripts\OSCTestSender.cs" />
      <Compile Include="Assets\Scripts\RotationMidi.cs" />
-     <Compile Include="Assets\TweakMegaNoise.cs" />
+     <Compile Include="Assets\Scripts\TweakMegaNoise.cs" />
+     <Compile Include="Assets\Stretched Appear Effect\Script\Demo.cs" />
+     <Compile Include="Assets\Stretched Appear Effect\Script\FreeCamera.cs" />
      <Compile Include="Assets\VJUI\Button.cs" />
      <Compile Include="Assets\VJUI\Configuration.cs" />
      <Compile Include="Assets\VJUI\Helper\DefaultControls.cs" />
@@ -266,6 +271,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
      <None Include="Assets\FORGE3D\Planets\Shaders\PlanetLighting.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Kino\Glitch\Shader\AnalogGlitch.shader" />
      <None Include="Assets\VRPanorama\Shaders\FadeVR.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
@@ -274,6 +280,7 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
      <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\Kino\Glitch\Shader\DigitalGlitch.shader" />
      <None Include="Assets\VJUI\Shader\Knob.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
@@ -309,6 +316,7 @@
      <None Include="Assets\FORGE3D\Planets\Shaders\PlanetPS.cginc" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Stretched Appear Effect\Shader\Stretched Appear Effect.shader" />
      <None Include="Assets\Funnel\Shader\Gamma.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
@@ -316,6 +324,7 @@
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\Stretched Appear Effect\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\FORGE3D\Planets\Shaders\Sandstorm.shader" />
