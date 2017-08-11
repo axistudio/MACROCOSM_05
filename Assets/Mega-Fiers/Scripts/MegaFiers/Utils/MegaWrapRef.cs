@@ -151,7 +151,7 @@ public class MegaWrapRef : MonoBehaviour
 		clonemesh.uv3 = m.uv3;
 		clonemesh.uv4 = m.uv4;
 #else
-		clonemesh.uv1 = m.uv1;
+		clonemesh.uv2 = m.uv2;
 		clonemesh.uv2 = m.uv2;
 #endif
 		clonemesh.uv = m.uv;

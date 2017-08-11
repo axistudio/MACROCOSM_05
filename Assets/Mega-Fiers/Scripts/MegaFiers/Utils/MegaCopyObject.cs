@@ -31,7 +31,7 @@ public class MegaCopyObject
 			clonemesh.uv3 = mesh.uv3;
 			clonemesh.uv4 = mesh.uv4;
 #else
-			clonemesh.uv1 = mesh.uv1;
+			clonemesh.uv2 = mesh.uv2;
 			clonemesh.uv2 = mesh.uv2;
 #endif
 			clonemesh.uv = mesh.uv;
@@ -157,7 +157,7 @@ public class MegaCopyObject
 			clonemesh.uv3 = mesh.uv3;
 			clonemesh.uv4 = mesh.uv4;
 #else
-			clonemesh.uv1 = mesh.uv1;
+			clonemesh.uv2 = mesh.uv2;
 			clonemesh.uv2 = mesh.uv2;
 #endif
 			clonemesh.uv = mod.uvs;	//mesh.uv;
@@ -400,7 +400,7 @@ public class MegaCopyObject
 				clonemesh.uv3 = mesh.uv3;
 				clonemesh.uv4 = mesh.uv4;
 #else
-				clonemesh.uv1 = mesh.uv1;
+				clonemesh.uv2 = mesh.uv2;
 				clonemesh.uv2 = mesh.uv2;
 #endif
 				clonemesh.uv = mesh.uv;
@@ -440,7 +440,7 @@ public class MegaCopyObject
 				clonemesh.uv3 = mesh.uv3;
 				clonemesh.uv4 = mesh.uv4;
 #else
-				clonemesh.uv1 = mesh.uv1;
+				clonemesh.uv2 = mesh.uv2;
 				clonemesh.uv2 = mesh.uv2;
 #endif
 				clonemesh.uv = mesh.uv;
@@ -512,7 +512,7 @@ public class MegaCopyObject
 		clonemesh.uv3 = mesh.uv3;
 		clonemesh.uv4 = mesh.uv4;
 #else
-		clonemesh.uv1 = mesh.uv1;
+		clonemesh.uv2 = mesh.uv2;
 		clonemesh.uv2 = mesh.uv2;
 #endif
 		clonemesh.uv = mesh.uv;
@@ -543,7 +543,7 @@ public class MegaCopyObject
 		clonemesh.uv3 = mesh.uv3;
 		clonemesh.uv4 = mesh.uv4;
 #else
-		clonemesh.uv1 = mesh.uv1;
+		clonemesh.uv2 = mesh.uv2;
 		clonemesh.uv2 = mesh.uv2;
 #endif
 		clonemesh.uv = mesh.uv;

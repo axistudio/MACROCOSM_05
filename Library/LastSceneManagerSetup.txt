@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< Updated upstream
 - path: Assets/Scene.unity
-=======
-- path: Assets/Scenes/Scene_VR.unity
->>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1

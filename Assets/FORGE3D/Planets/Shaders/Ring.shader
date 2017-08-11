@@ -1,4 +1,6 @@
-﻿// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+// Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 // Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
 Shader "FORGE3D/Planets/Ring" 
@@ -66,7 +68,7 @@ Shader "FORGE3D/Planets/Ring"
                 o.posSun = mul(unity_ObjectToWorld, v.vertex);
                 o.posObj = mul(v.vertex, unity_WorldToObject) * scale.x;
                 o.posWorld =  mul(unity_WorldToObject, v.vertex );        
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex);                
+                o.pos = UnityObjectToClipPos(v.vertex);                
                 return o;
             }
             

@@ -59,11 +59,11 @@ function Update () {
     glitchScrtip._scanLineJitter = GLitchSlider;
     glitchScrtipOutput._scanLineJitter = GLitchSlider;
 
-	var go = GameObject.Find(gameReceiver);
-	go.transform.Rotate((xRot+RotateSpeed)*Time.deltaTime, yRot*Time.deltaTime, 0);
+	//var go = GameObject.Find(gameReceiver);
+	//go.transform.Rotate((xRot+RotateSpeed)*Time.deltaTime, yRot*Time.deltaTime, 0);
 
-	var sphere01 = GameObject.Find(gameReceiver02);
-	sphere01.transform.Rotate(SpherexRot*Time.deltaTime,SphereyRot*Time.deltaTime,0);
+	//var sphere01 = GameObject.Find(gameReceiver02);
+	//sphere01.transform.Rotate(SpherexRot*Time.deltaTime,SphereyRot*Time.deltaTime,0);
 }  
 
 //These functions are called when messages are received

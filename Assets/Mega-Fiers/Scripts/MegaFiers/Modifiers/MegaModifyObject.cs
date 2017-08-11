@@ -270,7 +270,7 @@ public class MegaModifyObject : MegaModifiers
 			mesh.uv3 = newmesh.uv3;
 			mesh.uv4 = newmesh.uv4;
 #else
-			mesh.uv1 = newmesh.uv1;
+			mesh.uv2 = newmesh.uv2;
 			mesh.uv2 = newmesh.uv2;
 #endif
 			mesh.colors = newmesh.colors;

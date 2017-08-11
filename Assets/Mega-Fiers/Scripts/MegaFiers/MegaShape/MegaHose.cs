@@ -990,7 +990,7 @@ public class MegaHose : MonoBehaviour
 #if UNITY_5_5 || UNITY_6
 #else
 		if ( optimize )
-			mesh.Optimize();
+			;
 #endif
 
 		if ( calctangents )

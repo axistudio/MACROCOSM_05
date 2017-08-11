@@ -278,7 +278,7 @@ public class MegaCacheMeshConstructorOBJ : MegaCacheMeshConstructor
 #if UNITY_5_5 || UNITY_6
 #else
 		if ( optimize )
-			mesh.Optimize();
+			;
 #endif
 		mesh.RecalculateBounds();
 
@@ -388,7 +388,7 @@ public class MegaCacheMeshConstructorOBJNoUV : MegaCacheMeshConstructor
 #if UNITY_5_5 || UNITY_6
 #else
 		if ( optimize )
-			mesh.Optimize();
+			;
 #endif
 
 		mesh.RecalculateBounds();

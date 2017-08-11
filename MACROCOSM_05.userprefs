@@ -1,14 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MIDItoUI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\OSCReceiver.js">
     <Files>
-      <File FileName="Assets/MidiJack/MidiMaster.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/OSCReceiver.js" Line="1" Column="1" />
-      <File FileName="Assets/Material/Shader/DoubleFace.shader" Line="1" Column="1" />
-      <File FileName="Assets/Plugins/Syphon.cs" Line="1" Column="1" />
-      <File FileName="Assets/Plugins/Osc.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MIDItoUI.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/RotationMidi.cs" Line="20" Column="17" />
+      <File FileName="Assets\MidiJack\MidiMaster.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OSCReceiver.js" Line="62" Column="4" />
+      <File FileName="Assets\Material\Shader\DoubleFace.shader" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\Osc.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MIDItoUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RotationMidi.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

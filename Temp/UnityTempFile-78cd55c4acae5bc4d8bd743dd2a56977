@@ -1,0 +1,282 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp\Assembly-CSharp-Editor.dll
+-unsafe
+-r:Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+-r:Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll
+-r:Library\ScriptAssemblies\Assembly-CSharp.dll
+-r:Library\ScriptAssemblies\Assembly-UnityScript.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/Editor/UnityEditor.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/Editor/UnityEditor.Purchasing.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_1_0
+-define:UNITY_2017_1
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:UNITY_PRO_LICENSE
+Assets/BlendModes/Editor/BmEffectEditor.cs
+Assets/BlendModes/Editor/BmMaterialEditor.cs
+Assets/BlendModes/Editor/CameraOverlayEditor.cs
+Assets/Editor/ImageEffects/AntialiasingEditor.cs
+Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs
+Assets/Editor/ImageEffects/BloomEditor.cs
+Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs
+Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs
+Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs
+Assets/Editor/ImageEffects/CreaseShadingEditor.cs
+Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs
+Assets/Editor/ImageEffects/DepthOfFieldEditor.cs
+Assets/Editor/ImageEffects/EdgeDetectionEditor.cs
+Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs
+Assets/Editor/ImageEffects/SunShaftsEditor.cs
+Assets/Editor/ImageEffects/TonemappingEditor.cs
+Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs
+Assets/Editor/NewEditModeTest.cs
+Assets/Editor/NewEditModeTest1.cs
+Assets/Editor/NewEditModeTest2.cs
+Assets/Editor/NewPlayModeTest.cs
+Assets/Editor/PackageTool.cs
+Assets/Editor/SyphonEditor.cs
+Assets/Editor/SyphonHelper.cs
+Assets/FORGE3D/Planets/Scripts/Editor/F3DPlanetEditor.cs
+Assets/FORGE3D/Planets/Scripts/Editor/F3DSunEditor.cs
+Assets/Funnel/Editor/FunnelEditor.cs
+Assets/Kino/Glitch/Editor/AnalogGlitchEditor.cs
+Assets/Kino/Glitch/Editor/DigitalGlitchEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaAttachEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaAttractorShapeEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaBendEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaBezPatchEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaBubbleEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaBulgeEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaConformModEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaConformMultiEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaCopyObjects.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaCrumpleEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaCurveDeformEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaCurveSculptEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaCurveSculptLayeredEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaCylindrifyEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaDeepCopy.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaDeformableEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaDisplaceEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaDisplaceLimitsEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaDynamicRippleEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaFFD2x2x2Editor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaFFD3x3x3Editor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaFFD4x4x4Editor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaFFDAnimateEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaFFDEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaFiersWindow.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaGlobeEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaHumpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMatSelectEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMeltEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaModifierEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaModifyGroupEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaModifyObjectEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMorphAnimatorEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMorphAnimEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMorphEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMorphLinkEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMorphOMaticEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMorphRefEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaMultiVolSelectEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaNoiseEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPageFlipEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPaintEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaParseEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPathDeformEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPivotAdjustEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPointCacheAnimatorEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPointCacheEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPointCacheRefEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPrefabMaker.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaPushEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaRadialSkewEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaRippleEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaRopeDeformEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaRubberEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaSelectionEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaDrawSplineEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaHoseAttachEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaHoseEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaHoseNewAttachEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaHoseNewEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaMeshPageEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeArcEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeCircleEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeEllipseEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeHelixEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeLineEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeNGonEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeOSMWindow.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeRectangleEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeStarEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeWindow.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaShapeWizard.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaTankWheelsEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaTracksEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaShape/MegaTrainFollowEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaSimpleEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaSimpleModEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaSinusCurveEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaSkewEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaSpherifyEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaSqueezeEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaStretchEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaTaperEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaTreeBendEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaTwistEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaUndo.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaUVAdjustEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaUVTilesEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaVertColSelectEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaVertexAnimEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaVertNoiseEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaVolSelectEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaWarpBindEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaWaveEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaWaveMeshEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaWavingEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaWireDeformEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaWorldPathDeformEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/MegaWrapEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaBendWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaBubbleWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaCylindrifyWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaFFD2x2x2WarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaFFD3x3x3WarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaFFD4x4x4WarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaFFDWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaGlobeWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaHumpWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaMeltWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaNoiseWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaRippleWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaSinusCurveWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaSkewWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaSpherifyWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaSqueezeWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaStretchWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaTaperWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaTwistWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaWaveWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaWavingWarpEditor.cs
+Assets/Mega-Fiers/Editor/MegaFiers/Warps/MegaZStretchWarpEditor.cs
+Assets/Mega-Fiers/MegaCache/Scripts/Editor/MegaCacheOBJEditor.cs
+Assets/MidiJack/Editor/MidiJackWindow.cs
+Assets/VJUI/Editor/ButtonEditor.cs
+Assets/VJUI/Editor/KnobEditor.cs
+Assets/VJUI/Editor/MenuOptions.cs
+Assets/VJUI/Editor/ToggleEditor.cs
+Assets/VRPanorama/Editor/VRPanoramaEditor.cs
+Assets/VRPanorama/Editor/VRPanoramaMenu.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-sdk:2.0

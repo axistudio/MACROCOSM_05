@@ -33,7 +33,7 @@ public class MegaWarpEditor : Editor
 #if UNITY_5_1 || UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_6
 	[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.Pickable | GizmoType.InSelectionHierarchy)]
 #else
-	[DrawGizmo(GizmoType.NotSelected | GizmoType.Pickable | GizmoType.SelectedOrChild)]
+	[DrawGizmo(GizmoType.NotInSelectionHierarchy | GizmoType.Pickable | GizmoType.InSelectionHierarchy)]
 #endif
 	static void RenderGizmo(MegaWarp warp, GizmoType gizmoType)
 	{
@@ -44,7 +44,7 @@ public class MegaWarpEditor : Editor
 #if UNITY_5_1 || UNITY_5_2 || UNITY_5_3 || UNITY_5_4 || UNITY_5_5 || UNITY_6
 			if ( (gizmoType & GizmoType.NotInSelectionHierarchy) != 0 )
 #else
-			if ( (gizmoType & GizmoType.NotSelected) != 0 )
+			if ( (gizmoType & GizmoType.NotInSelectionHierarchy) != 0 )
 #endif
 			{
 				col.a = 0.5f;

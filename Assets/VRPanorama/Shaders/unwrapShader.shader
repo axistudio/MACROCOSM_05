@@ -1,3 +1,5 @@
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
 // Upgrade NOTE: replaced '_Object2World' with 'unity_ObjectToWorld'
 
 Shader "VRPanorama/unwrapShader" {
@@ -46,7 +48,7 @@ Shader "VRPanorama/unwrapShader" {
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
                 o.normalDir = mul(unity_ObjectToWorld, float4(v.normal,0)).xyz;
-                o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 UNITY_TRANSFER_FOG(o,o.pos);
                 return o;
             }
