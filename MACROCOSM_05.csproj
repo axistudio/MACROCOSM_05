@@ -290,6 +290,7 @@
     <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\DOFCamera.cs" />
     <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\JPGEncoder.cs" />
     <Compile Include="Assets\Mega-Fiers\Scripts\MegaGrab\MegaGrab.cs" />
+    <Compile Include="Assets\MegaNoise4Timeline.cs" />
     <Compile Include="Assets\MidiJack\Midi.cs" />
     <Compile Include="Assets\MidiJack\MidiDriver.cs" />
     <Compile Include="Assets\MidiJack\MidiMaster.cs" />
