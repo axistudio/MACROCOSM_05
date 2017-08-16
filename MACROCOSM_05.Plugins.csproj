@@ -130,6 +130,23 @@
     <Compile Include="Assets\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AVProVideo\Demos\Materials\UI-Default-ExtraTexture.shader" />
+    <None Include="Assets\AVProVideo\Demos\Materials\UI-DefaultFont-ExtraTexture.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Background-FullScreen.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Background-FullScreenTransparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-IMGUI-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Lit-Diffuse.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Lit-Transparent-Diffuse.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-Default-Stereo.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-Default-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit-AndroidOES.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-AndroidOES.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-StereoUV.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\BlendModes.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\BlendOps.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\Extra\CameraOverlay.shader" />

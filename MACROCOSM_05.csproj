@@ -87,6 +87,43 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\AutoRotate.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\ChangeVideoExample.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\DemoInfo.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\FrameExtract.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\Mapping3D.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\SampleApp_Multiple.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\ChangeAudioTrack.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\NativeMediaOpen.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\PlaybackSync.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\StartEndPoint.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\Scriptlets\VideoTrigger.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\SimpleController.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\SphereDemo.cs" />
+    <Compile Include="Assets\AVProVideo\Demos\Scripts\VCR.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\ApplyToMaterial.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\ApplyToMesh.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\AudioOutput.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\CubemapCube.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\DisplayBackground.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\DisplayIMGUI.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\DisplayUGUI.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\MediaPlayer.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\SubtitlesUGUI.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\Support\NGUI\ApplyToTextureWidgetNGUI.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoControl.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoEvent.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoInfo.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\AVProVideoPlayer.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\Support\PlayMaker\Actions\Internal\AVProVideoActionBase.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Components\UpdateStereoMaterial.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Internal\AndroidMediaPlayer.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Internal\BaseMediaPlayer.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Internal\Interfaces.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Internal\NullMediaPlayer.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Internal\OSXMediaPlayer.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Internal\WebGLMediaPlayer.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Internal\WindowsMediaPlayer.cs" />
     <Compile Include="Assets\BlendModes\Demo\Scripts\DemoBlendModePicker.cs" />
     <Compile Include="Assets\BlendModes\Demo\Scripts\DemoObject.cs" />
     <Compile Include="Assets\BlendModes\Demo\Scripts\DemoObjectPicker.cs" />
@@ -101,6 +138,7 @@
     <Compile Include="Assets\BlendModes\Scripts\ObjectType.cs" />
     <Compile Include="Assets\BlendModes\Scripts\RenderMode.cs" />
     <Compile Include="Assets\DisplayTime.cs" />
+    <Compile Include="Assets\FillScreen.cs" />
     <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DPlanet.cs" />
     <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSolarCamera.cs" />
     <Compile Include="Assets\FORGE3D\Planets\Scripts\F3DSun.cs" />
@@ -328,6 +366,23 @@
     <Compile Include="Assets\VRPanorama\VRCapture.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AVProVideo\Demos\Materials\UI-Default-ExtraTexture.shader" />
+    <None Include="Assets\AVProVideo\Demos\Materials\UI-DefaultFont-ExtraTexture.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Background-FullScreen.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Background-FullScreenTransparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-IMGUI-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Lit-Diffuse.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Lit-Transparent-Diffuse.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-Default-Stereo.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-Default-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit-AndroidOES.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-AndroidOES.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-StereoUV.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\BlendModes.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\BlendOps.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\Extra\CameraOverlay.shader" />

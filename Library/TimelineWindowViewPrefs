@@ -14,19 +14,19 @@ MonoBehaviour:
   m_Keys:
   - {fileID: 11400000, guid: 4d90f502c739fe44d891a633956ee3bb, type: 2}
   m_Vals:
-  - timeInFrames: 0
-    timeAreaShownRange: {x: -2.613737, y: 586.2613}
+  - timeInFrames: 1
+    timeAreaShownRange: {x: -4.512698, y: 905.36005}
     m_Keys:
     - {fileID: 114670445890642210, guid: 4d90f502c739fe44d891a633956ee3bb, type: 2}
-    - {fileID: 114684291068504834, guid: 4d90f502c739fe44d891a633956ee3bb, type: 2}
     - {fileID: 114821606598629764, guid: 4d90f502c739fe44d891a633956ee3bb, type: 2}
     - {fileID: 114603261461188052, guid: 4d90f502c739fe44d891a633956ee3bb, type: 2}
+    - {fileID: 114684291068504834, guid: 4d90f502c739fe44d891a633956ee3bb, type: 2}
     m_Vals:
     - collapsed: 0
       showInlineCurves: 0
     - collapsed: 0
       showInlineCurves: 0
     - collapsed: 0
-      showInlineCurves: 0
+      showInlineCurves: 1
     - collapsed: 0
       showInlineCurves: 0

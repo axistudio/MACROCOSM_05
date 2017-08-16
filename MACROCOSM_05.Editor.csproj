@@ -133,6 +133,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AVProVideo\Scripts\Editor\ApplyToMeshEditor.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Editor\DisplayUGUIEditor.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Editor\MediaPlayerEditor.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Editor\PostProcessBuild.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Editor\SupportWindow.cs" />
+    <Compile Include="Assets\AVProVideo\Scripts\Editor\UpdateStereoMaterialEditor.cs" />
     <Compile Include="Assets\BlendModes\Editor\BmEffectEditor.cs" />
     <Compile Include="Assets\BlendModes\Editor\BmMaterialEditor.cs" />
     <Compile Include="Assets\BlendModes\Editor\CameraOverlayEditor.cs" />
@@ -296,6 +302,23 @@
     <Compile Include="Assets\VRPanorama\Editor\VRPanoramaMenu.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\AVProVideo\Demos\Materials\UI-Default-ExtraTexture.shader" />
+    <None Include="Assets\AVProVideo\Demos\Materials\UI-DefaultFont-ExtraTexture.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Background-FullScreen.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Background-FullScreenTransparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-IMGUI-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Lit-Diffuse.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Lit-Transparent-Diffuse.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-Default-Stereo.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-UI-Default-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit-AndroidOES.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-Unlit.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-AndroidOES.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-StereoUV.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere-Transparent.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo-VR-InsideSphere.shader" />
+    <None Include="Assets\AVProVideo\Resources\Shaders\AVProVideo.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\BlendModes.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\BlendOps.cginc" />
     <None Include="Assets\BlendModes\Resources\BlendModes\Extra\CameraOverlay.shader" />
