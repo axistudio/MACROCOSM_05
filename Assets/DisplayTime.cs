@@ -15,6 +15,10 @@ public class DisplayTime : MonoBehaviour {
     private int[] addValue;
 
     public float[] randValues;
+
+    public float RandValueOnTimer;
+    public float RandValueOnYears;
+
     private DateTime newDates;
     private int newYear;
     void Start () {
@@ -40,16 +44,19 @@ public class DisplayTime : MonoBehaviour {
         //string hourVar = DateTime.Now.Date.ToString();
         for (int i = 0; i < randValues.Length; i++)
         {
-            addValue[i] += (int)UnityEngine.Random.Range(0,randValues[i]);
+           
         }
 
+        addValue[0] += (int)UnityEngine.Random.Range(0, RandValueOnTimer);
+
+        addValue[1]  += (int)UnityEngine.Random.Range(0, RandValueOnYears);
 
         newDates = DateTime.Now.AddSeconds(addValue[0]);
 
         if (FramePeriod > 0.1f)
         {
             //Do Stuff
-            newYear += (int)randValues[1];
+            newYear += (int)RandValueOnYears;
             FramePeriod = 0.0f;
         }
         FramePeriod += UnityEngine.Time.deltaTime;
